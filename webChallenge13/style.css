@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+button{
+    padding: 5px;;
+}
+hr{
+    color: lightgray;
+}
+.forma{
+    width: 580px;
+    border: 1px solid grey;
+    padding: 7px;
+}
+.rightAlign{
+    float:right;
+}
