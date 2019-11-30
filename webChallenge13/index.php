@@ -13,8 +13,8 @@
         $brojRecenzija = 12;
     ?>
     <div class="forma">
-        <span><img src="images/firstImage.png" alt="Slika sale"></span>
-        <span><a href="https://maps.google.com?q=ITAcademysarajevo" target="_blank"><img src="images/secondImage.png" alt="Mapa"></a></span>
+        <span><img src="images/firstImage.png" alt="Slika sale ITAcademy"></span>
+        <span><a href="https://maps.google.com?q=ITAcademysarajevo" target="_blank"><img src="images/secondImage.png" alt="Mapa ITAcademy"></a></span>
         <h1>ITAcademy</h1>
         <button>Web lokacija</button>
         <button>Uputstva</button>
