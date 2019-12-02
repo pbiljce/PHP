@@ -1,7 +1,22 @@
 <?php
     require 'model.php';
     $message = "";
-    switch($userStatus){
+
+    if($userStatus == 1){
+        $message = "Welcome administrator";
+        $class = "admin";
+    }
+    elseif($userStatus == 2){
+        $message = "Welcome user";
+        $class = "user";
+    }
+    else{
+        $message = "Unknown user type";
+        $class = "unknown";
+    }
+    
+    #switch case struktura
+    /*switch($userStatus){
         case '1':
             $message = "Welcome administrator";
             $class = "admin";
@@ -14,5 +29,5 @@
             $message = "Unknown user type";
             $class = "unknown";
         break;
-    }
+    }*/
 ?>
