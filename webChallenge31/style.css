@@ -1,0 +1,24 @@
+*{
+    margin:0;
+}
+ul{
+    background: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    background: lightskyblue;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+    font-weight: bold;
+}
