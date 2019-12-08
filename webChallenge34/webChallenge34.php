@@ -21,7 +21,7 @@
             }
         }
         if($currentTemperature > 25 && !$rain){
-            echo "<img src='sunce.png' alt='oblak' image='oblak'>Preporučena odjeća: majica<br>";
+            echo "<img src='sunce.png' alt='sunce' image='sunce'>Preporučena odjeća: majica<br>";
         }
         if($currentTemperature < 26){
             echo "Preporučena odjeća: jakna<br>";
