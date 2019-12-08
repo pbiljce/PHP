@@ -13,7 +13,7 @@
             $recenica = $_GET['sentence'];
             $broj = 0;
             for ($i=0; $i < strlen($recenica); $i++) { 
-                if($karakter == substr($recenica,$i,1)){
+                if($karakter == substr($recenica,$i,1)){//substr(string,start,length)
                     $broj++;
                 }
             }
