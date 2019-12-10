@@ -8,9 +8,6 @@
 </head>
 <body>
     <?php
-
-    ?>
-    <?php
         if(isset($_GET['prvi']) && !empty($_GET['prvi'] && $_GET['zadnji']) && !empty($_GET['zadnji'])){
             $prviBroj = $_GET['prvi'];
             $drugiBroj = $_GET['zadnji'];
