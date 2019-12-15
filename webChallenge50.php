@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-        $user = "Bruce";
-        $password = "Batman";
+        $user = "Peter";
+        $password = "Spiderman";
         $users = array("Peter"=>"Spiderman","Klark"=>"Superman","Bruce"=>"Batman");
 
         $message = "Invalid user";

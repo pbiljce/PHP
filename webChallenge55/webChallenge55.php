@@ -8,15 +8,20 @@
 </head>
 <body>
     <?php
-        $page = "index.html";
+        $page = "test.html";
         $pages = array("index.html","index.php","index.htm");
+        $p = false;
+        $pa ="";
 
         echo "Osnovna stranica<br>";
         foreach($pages as $inc){
             if($inc == $page){
-                $p = 'inc/' . $page;
-                include $p;
+                $p = true;
             }
+        }
+        if(!$p){
+            $pa = 'inc/' . $page;
+            include $pa;
         }
     ?>
 </body>
